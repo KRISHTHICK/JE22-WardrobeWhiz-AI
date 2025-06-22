@@ -26,3 +26,26 @@ Feature	Description
 📆 Look Planner Calendar	Plan outfits for the week or special events
 📄 RAG-based Style Advisor	Upload fashion PDFs → Ask questions (e.g., "What's in trend for 2025?")
 ✍️ Blog & Caption Generator	Auto-write captions or blog posts about planned outfits
+
+## 🚀 How to Run
+
+### Step 1: Clone Repo
+```bash
+git clone https://github.com/yourname/WardrobeWhiz-AI.git
+cd WardrobeWhiz-AI
+Step 2: Install dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Step 3: Start Ollama and pull model
+bash
+Copy
+Edit
+ollama serve
+ollama pull tinyllama
+Step 4: Run the App
+bash
+Copy
+Edit
+streamlit run app.py
